@@ -48,8 +48,8 @@ for i=1:n
 
 end
 
-txarr = cat(1,pxarr,fxarr,dxarr, cxarr);
-tyarr = cat(1,pyarr,fyarr,dyarr,cyarr);
+txarr = cat(1,pxarr,fxarr,dxarr, cxarr);  % used for making single array 
+tyarr = cat(1,pyarr,fyarr,dyarr,cyarr);    % used for making single array
 
 
 %call function to plot initial pose
